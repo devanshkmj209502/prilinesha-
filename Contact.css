@@ -1,0 +1,125 @@
+.contact-wrapper {
+  background: #f5f7fa;
+  position: relative;
+}
+
+/* ===== HERO ===== */
+
+.contact-hero {
+  height: 320px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  padding: 0 20px;
+}
+
+.hero-text h1 {
+  font-size: 42px;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.hero-text p {
+  max-width: 600px;
+  font-size: 15px;
+  opacity: 0.9;
+}
+
+/* ===== CARD SECTION ===== */
+
+.contact-card-section {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: -90px; /* overlap effect */
+  padding: 0 5% 80px;
+  flex-wrap: wrap;
+}
+
+.contact-card {
+  background: #ffffff;
+  width: 360px;
+  padding: 35px 30px;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+  transition: 0.3s ease;
+}
+
+.contact-card:hover {
+  transform: translateY(-6px);
+}
+
+.card-icon {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.contact-card h3 {
+  margin-bottom: 15px;
+  font-weight: 600;
+  color: #0a192f;
+}
+
+.contact-card p {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+.phone {
+  display: block;
+  font-weight: 600;
+  color: #0a192f;
+  margin-bottom: 10px;
+}
+
+.link {
+  font-size: 13px;
+  color: #0096aa;
+  text-decoration: none;
+}
+
+.btn-support {
+  background: #ff7a59;
+  border: none;
+  padding: 10px 24px;
+  color: #fff;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.btn-support:hover {
+  background: #e56749;
+}
+
+/* ===== MOBILE ===== */
+
+@media (max-width: 768px) {
+
+  .contact-hero {
+    height: 260px;
+  }
+
+  .hero-text h1 {
+    font-size: 26px;
+  }
+
+  .contact-card-section {
+    margin-top: -50px;
+    gap: 25px;
+    padding-bottom: 60px;
+  }
+
+  .contact-card {
+    width: 100%;
+    max-width: 380px;
+  }
+
+}

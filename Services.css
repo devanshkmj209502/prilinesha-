@@ -1,0 +1,78 @@
+/* ===== Services Section ===== */
+
+.services {
+  padding: 80px 5%;
+  background: linear-gradient(135deg, #f8fbff, #eef3f9);
+  text-align: center;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+/* Heading */
+.services h2 {
+  width: 100%;
+  font-size: 32px;
+  margin-bottom: 40px;
+  color: #0a192f;
+  font-weight: 600;
+}
+
+/* ===== Service Card ===== */
+
+.service-card {
+  background: #ffffff;
+  width: 320px;
+  padding: 25px;
+  border-radius: 14px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+  text-align: center;
+}
+
+.service-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+}
+
+/* Image */
+.service-card img {
+  width: 100%;
+  height: 190px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 18px;
+}
+
+/* Title */
+.service-card h3 {
+  font-size: 20px;
+  margin-bottom: 12px;
+  color: #0a192f;
+}
+
+/* Description */
+.service-card p {
+  font-size: 14px;
+  color: #555;
+  line-height: 1.6;
+}
+@media (max-width: 768px) {
+
+  .services {
+    padding: 60px 20px;
+    gap: 20px;
+  }
+
+  .services h2 {
+    font-size: 24px;
+  }
+
+  .service-card {
+    width: 100%;
+    max-width: 400px;
+  }
+
+}
